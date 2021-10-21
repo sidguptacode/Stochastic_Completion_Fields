@@ -1,0 +1,23 @@
+#SOURCE AND SINK FIELDS
+sources:  
+  - {x: -40, y: 0, theta: 30}
+sinks:  
+  - {x: 40, y: 0, theta: 150}
+load_source_field_from_file: False   # if true, the sources defined above aren't used
+load_sink_field_from_file: False # if true, the sinks defined above aren't used
+plot_fields: True
+
+#RANDOM WALKS
+num_walks: 100
+seed: 0
+plot_walks: True
+
+#INPUT/OUTPUT FILES
+walks_img_file: walks_img
+walks_file: walks  
+sink_field_file: sink_field
+sink_img_file: sink_img
+source_field_file: source_field
+source_img_file: source_img
+completion_field_file: completion_field
+completion_img_file: completion_img

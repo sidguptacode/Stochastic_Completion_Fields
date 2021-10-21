@@ -1,0 +1,30 @@
+sources:
+  - { y: 128, x: 108, theta: 30 }
+sinks:
+  - { y: 128, x: 148, theta: 150 }
+
+plot_source_fields: True
+plot_sink_fields: True
+plot_completion_fields: True
+
+save_source_data: True
+save_sink_data: True
+save_completion_data: True
+
+seed: 0
+width: 256
+diff_sqrt: 0.15811388300841897
+tau: 70
+
+#INPUT/OUTPUT FILES
+source_file: source_file
+source_img_file: source_img
+source_field_data: source_field_data
+sink_file: sink_file
+sink_img_file: sink_img
+sink_field_data: sink_field_data
+completion_file: completion_field
+completion_img_file: completion_img
+completion_field_data: completion_field_data
+source_sink_sum_file: source_sink_sum_file
+source_sink_sum_img_file: source_sink_sum_img
